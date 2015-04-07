@@ -61,6 +61,13 @@ limitations under the License.
     <!-- Switch Bar Text Color -->
     <color name="switchbar_text_color">#ffffffff</color>
 
+     <!-- DSLV colors -->
+    <color name="dslv_icon_dark">#ff009688</color>
+    <color name="dslv_float_cackground_color">#ffe1e1e0</color>
+
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+
     <!-- Personal Dictionary Add Icon -->
     <drawable name="ic_menu_add_word">@drawable/ic_menu_add_dark</drawable>
     <color name="screencolor_background">#50000000</color>

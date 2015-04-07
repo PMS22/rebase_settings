@@ -49,6 +49,12 @@
             android:fragment="com.android.settings.notification.SoundSettings"
             android:icon="@drawable/ic_settings_sounds" />
 
+	<!-- Gesture anywhere -->
+        <PreferenceScreen
+            android:key="gesture_anywhere"
+            android:fragment="com.android.settings.fh.gestureanywhere.GestureAnywhereSettings"
+            android:title="@string/gesture_anywhere_title" />
+
 	<!-- About FireHound -->
         <PreferenceScreen 
 	    android:key="info"
