@@ -64,6 +64,13 @@
             android:icon="@drawable/ic_settings_gestures"
             android:title="@string/gesture_anywhere_title" />
 
+	<!-- App Circle SideBar -->
+	    <PreferenceScreen
+            android:key="app_circle_bar"
+            android:fragment="com.android.settings.fh.fragments.AppCircleBar"
+            android:title="@string/app_circle_bar_title"
+	    android:icon="ic_settings_data_usage" />		
+
 	<!-- About FireHound -->
         <PreferenceScreen 
 	    android:key="info"
