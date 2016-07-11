@@ -1,0 +1,54 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/fh_settings_title" >
+
+    <PreferenceCategory
+        android:key="fh_categories"
+        android:title="@string/fh_title" >
+        
+	<!-- StatusBar -->
+        <PreferenceScreen
+            android:id="@+id/status_bar_settings"
+            android:title="@string/status_bar_title"
+            android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
+            android:icon="@drawable/ic_settings_statusbar" />
+                 
+        <!-- Notification drawer -->
+        <PreferenceScreen
+            android:id="@+id/notification_manager"
+            android:title="@string/notification_manager"
+            android:fragment="com.android.settings.notification.NotificationManagerSettings"
+            android:icon="@drawable/ic_settings_notifications" />
+
+        <!-- Buttons -->
+        <PreferenceScreen
+            android:id="@+id/button_settings"
+            android:title="@string/button_pref_title"
+            android:fragment="com.android.settings.ButtonSettings"
+            android:icon="@drawable/ic_settings_buttons" />
+
+	<!-- Display Settings -->
+	<PreferenceScreen
+	    android:id="@+id/display_and_lights_settings"
+            android:title="@string/display_and_lights"
+            android:fragment="com.android.settings.DisplaySettings"
+            android:icon="@drawable/ic_settings_display" />
+
+	<!-- Battery -->
+        <PreferenceScreen
+            android:id="@+id/battery_settings"
+            android:title="@string/power_usage_summary_title"
+            android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+            android:icon="@drawable/ic_settings_battery" />
+	
+	<!-- Sounds -->
+	<PreferenceScreen
+	    android:id="@+id/sound_settings"
+            android:title="@string/category_sounds"
+            android:fragment="com.android.settings.notification.SoundSettings"
+            android:icon="@drawable/ic_settings_sounds" />
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

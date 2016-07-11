@@ -20,6 +20,7 @@
 
 -keep class com.android.settings.cyanogenmod.*Settings
 -keep class com.android.settings.privacyguard.*
+-keep class com.android.settings.fh.*Settings
 
 # These would be stripped out since they are being created with reflection
 -keep class com.android.settings.dashboard.GenericSwitchToggle { *; }

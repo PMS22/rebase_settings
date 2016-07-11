@@ -101,6 +101,7 @@ import com.android.settings.livedisplay.LiveDisplay;
 import com.android.settings.notification.NotificationManagerSettings;
 import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.notification.SoundSettings;
+import com.android.settings.fh.FhSettings;
 import com.android.settings.profiles.NFCProfileTagCallback;
 import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.search.DynamicIndexableContentMonitor;
@@ -317,7 +318,8 @@ public class SettingsActivity extends Activity
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
             HomeSettings.class.getName(),
-            DisplaySettings.class.getName(),
+	    FhSettings.class.getName(),
+	    DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
             ManageApplications.class.getName(),
             ManageAssist.class.getName(),
