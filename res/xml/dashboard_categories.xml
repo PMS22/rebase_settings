@@ -96,7 +96,7 @@
     <!-- FHSettings -->
     <dashboard-category
             android:id="@+id/fh_section"
-            android:title="@string/fh_section_title" >
+            android:title="@string/fh_section_title" />
 
         <!-- FH Sub Settings -->
         <dashboard-tile
