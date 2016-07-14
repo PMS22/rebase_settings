@@ -96,7 +96,7 @@
     <!-- FHSettings -->
     <dashboard-category
             android:id="@+id/fh_section"
-            android:title="@string/fh_section_title" />
+            android:title="@string/fh_section_title" >
 
         <!-- FH Sub Settings -->
         <dashboard-tile
@@ -105,6 +105,8 @@
                 android:fragment="com.android.settings.fh.FhSettings"
                 android:icon="@drawable/ic_fh_logo"
                 />
+                
+    </dashboard-category>
 
 	<!-- Privacy Settings -->
 	<dashboard-tile
