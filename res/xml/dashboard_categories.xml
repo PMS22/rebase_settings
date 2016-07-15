@@ -105,8 +105,6 @@
                 android:fragment="com.android.settings.fh.FhSettings"
                 android:icon="@drawable/ic_fh_logo"
                 />
-                
-    </dashboard-category>
 
 	<!-- Privacy Settings -->
 	<dashboard-tile
@@ -115,6 +113,8 @@
                 android:fragment="com.android.settings.cyanogenmod.PrivacySettings"
                 android:icon="@drawable/ic_settings_privacy"
                 />
+
+    </dashboard-category>
 
     <!-- DEVICE -->
     <dashboard-category

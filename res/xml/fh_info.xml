@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/about_fh">
+
+    <PreferenceCategory
+        android:key="about"
+        android:title="@string/about_fh">
+
+        <!-- Developer -->
+        <Preference
+            android:key="fh_developer"
+            android:title="@string/fh_developer_title"
+            android:summary="@string/fh_developer_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="online"
+        android:title="@string/fh_online">
+
+        <!-- FireHound Github -->
+        <Preference
+            android:key="fh_source"
+            android:title="@string/fh_git_title"
+            android:summary="@string/fh_git_summary" />
+
+        <!-- FireHound GooglePlus -->
+        <Preference
+            android:key="fh_google_plus"
+            android:title="@string/fh_google_plus_title"
+            android:summary="@string/fh_google_plus_summary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

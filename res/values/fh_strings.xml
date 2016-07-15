@@ -53,6 +53,17 @@
     <string name="fh_section_title">Burnt Extras</string>
     <string name="fh_title">Fire Scars</string>
 
+    <!-- FireHound Info -->
+    <string name="fh_developer_title">Developers Github</string>
+    <string name="fh_developer_summary">Support the Developer and FireHound Team</string>
+    <string name="maintainers_fh_title">FireHound Official Maintainers</string>
+    <string name="fh_online">Across FireHound</string>
+    <string name="fh_git_title">FireHound Github Source</string>
+    <string name="fh_git_summary">Go and Compile FireHound for your Device</string>
+    <string name="fh_google_plus_title">FireHound Google Plus Community</string>
+    <string name="fh_google_plus_summary">Visit and Join Community for More Information</string>
+    <string name="about_fh">About FireHound</string>
+
     <!-- About phone screen, Device model -->
     <string name="device_model">Device model</string>
 
