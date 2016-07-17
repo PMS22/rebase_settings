@@ -53,6 +53,12 @@
     <string name="fh_section_title">Burnt Extras</string>
     <string name="fh_title">Fire Scars</string>
 
+    <!-- Share FH -->
+    <string name="share_fh_title">Share FireHound</string>
+    <string name="share_fh_summary">Pour some fuel and spread Fire</string>
+    <string name="share_message">FireHound Google Community @ https://plus.google.com/communities/114615598909452601377</string>
+    <string name="share_chooser_title">Share FireHound</string>
+
     <!-- FireHound Info -->
     <string name="fh_developer_title">Developers Github</string>
     <string name="fh_developer_summary">Support the Developer and FireHound Team</string>

@@ -32,6 +32,12 @@
             android:title="@string/fh_google_plus_title"
             android:summary="@string/fh_google_plus_summary" />
 
+	<!-- FH Share -->
+        <Preference
+            android:key="share"
+            android:title="@string/share_fh_title"
+            android:summary="@string/share_fh_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

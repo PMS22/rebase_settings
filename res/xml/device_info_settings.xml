@@ -34,12 +34,6 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-	<!-- About FireHound -->
-	<PreferenceScreen android:key="info"
-                    android:title="@string/about_fh"
-                    android:fragment="com.android.settings.fh.Info">
-	</PreferenceScreen>
-
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
