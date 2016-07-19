@@ -12,7 +12,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.List;
 
-import com.android.internal.logging.MetricsLogger;
+import org.cyanogenmod.internal.logging.CMMetricsLogger;
 
 public class FhSettings extends SettingsPreferenceFragment {
 
@@ -25,6 +25,6 @@ public class FhSettings extends SettingsPreferenceFragment {
 
     protected int getMetricsCategory()
     {
-	return MetricsLogger.APPLICATION;
+	return CMMetricsLogger.APPLICATION;
     }
 }

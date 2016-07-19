@@ -26,7 +26,7 @@ public class Firehound extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.fh_info);
+        addPreferencesFromResource(R.xml.fh_misc);
 
         mSourceUrl = findPreference("fh_source");
         mGoogleUrl = findPreference("fh_google_plus");
@@ -36,7 +36,7 @@ public class Firehound extends SettingsPreferenceFragment {
     @Override
     protected int getMetricsCategory() {
         // todo add a constant in MetricsLogger.java
-        return CMMetricsLogger.MAIN_SETTINGS;
+        return CMMetricsLogger.APPLICATION;
     }
 
     @Override
