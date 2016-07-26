@@ -35,7 +35,7 @@
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
     <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing apps to request root access is very dangerous and could compromise the security of your system!</string>
+    <string name="root_access_warning_message">Allowing Root Access can reveal infinite possibilities! Do you wish to continue?</string>
     <string name="root_access_none">Disabled</string>
     <string name="root_access_apps">Apps only</string>
     <string name="root_access_adb">ADB only</string>
