@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.crdroid.gestureanywhere;
+package com.android.settings.fh.gestureanywhere;
 
 import android.app.Activity;
 import android.content.Intent;
