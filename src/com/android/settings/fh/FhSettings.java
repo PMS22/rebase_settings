@@ -20,7 +20,7 @@ import org.cyanogenmod.internal.logging.CMMetricsLogger;
 public class FhSettings extends SettingsPreferenceFragment
 	implements Indexable {
 
-private static final String TAG = FhSettings.super.getSimpleName();
+private static final String TAG = FhSettings.class.getSimpleName();
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -49,7 +49,7 @@ private static final String TAG = FhSettings.super.getSimpleName();
 
                     return result;
                 }
-
+		@Override
                 public List<String> getNonIndexableKeys(Context context) {
                     ArrayList<String> result = new ArrayList<String>();
                     return result;
