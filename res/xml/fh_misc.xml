@@ -5,7 +5,7 @@
         android:title="@string/about_fh">
 
     <PreferenceCategory
-        android:key="about"
+        android:key="Firehound"
         android:title="@string/about_fh">
 
         <!-- Developer -->
