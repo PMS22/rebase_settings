@@ -4,6 +4,8 @@
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/about_fh">
 
+<PreferenceScreen android:layout="@layout/logo" android:key="fh_about_logo" />
+
     <PreferenceCategory
         android:key="Firehound"
         android:title="@string/about_fh">
