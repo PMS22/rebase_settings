@@ -28,6 +28,7 @@ private static final String TAG = FhSettings.class.getSimpleName();
 
         addPreferencesFromResource(R.xml.fh_settings);
 	final PreferenceScreen prefScreen = getPreferenceScreen();
+
     }
 
     @Override
@@ -35,6 +36,7 @@ private static final String TAG = FhSettings.class.getSimpleName();
 	// todo add a constant in MetricsLogger.java
 	return CMMetricsLogger.APPLICATION;
     }
+    
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
@@ -49,6 +51,7 @@ private static final String TAG = FhSettings.class.getSimpleName();
 
                     return result;
                 }
+                
 		@Override
                 public List<String> getNonIndexableKeys(Context context) {
                     ArrayList<String> result = new ArrayList<String>();
