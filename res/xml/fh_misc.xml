@@ -8,7 +8,7 @@
 
     <PreferenceCategory
         android:key="Firehound"
-        android:title="@string/about_fh">
+        android:title="@string/about_developer">
 
         <!-- Developer -->
         <Preference
