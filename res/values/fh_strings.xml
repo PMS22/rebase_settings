@@ -146,7 +146,7 @@
     <string name="fh_developer_summary">Support the Developer and FireHound Team</string>
     <string name="maintainers_fh_title">FireHound Official Maintainers</string>
     <string name="fh_online">About FireHound</string>
-    <string name="fh_developer">About Developer</string>
+    <string name="about_developer">About Developer</string>
     <string name="fh_git_title">FireHound Github Source</string>
     <string name="fh_git_summary">Go and Compile FireHound for your Device</string>
     <string name="fh_google_plus_title">FireHound Google Plus Community</string>
