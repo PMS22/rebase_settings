@@ -126,18 +126,6 @@
             android:key="@string/category_key_device"
             android:title="@string/header_category_device" >
 
-        <!-- Themes -->
-        <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
-        <dashboard-tile
-                android:id="@+id/theme_settings"
-                android:title="@string/themes_settings_title"
-                android:icon="@drawable/ic_settings_themes">
-            <intent
-                    android:action="android.intent.action.MAIN" >
-                <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
-            </intent>
-        </dashboard-tile>
-
         <!-- Lock screen -->
         <dashboard-tile
                 android:id="@+id/lockscreen_settings"
