@@ -1316,7 +1316,6 @@
 
     <!-- Label for settings shortcut: carrier selection -->
     <string name="shortcut_carrier_title">Network operators</string>
-<<<<<<< HEAD:res/values/fh_strings.xml
 
     <!-- title for lock screen blur preference -->
     <string name="lockscreen_blur_enabled_title">Blur background</string>
@@ -1356,6 +1355,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
 
     <!-- Recents panel -->
+    <string name="recents_settings_title">Recents Settings</string>
     <string name="recents_panel_category">Recents panel</string>
     <string name="recents_searchbar_title">Search bar</string>
     <string name="recents_searchbar_summary">Show Google search bar in the recents screen</string>
