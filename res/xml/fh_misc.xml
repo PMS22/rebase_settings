@@ -34,6 +34,18 @@
             android:title="@string/fh_google_plus_title"
             android:summary="@string/fh_google_plus_summary" />
 
+	<!-- FireHound Donation -->
+	<Preference
+	   android:key="fh_donation"
+	   android:title="@string/fh_donation_title"
+	   android:summary="@string/fh_donation_summary" />
+
+	<!-- FireHound Maintainers -->
+	<Preference
+	    android:key="fh_maintainers"
+	    android:title="@string/fh_maintainers_title"
+	    android:title="@string/fh_maintainers_summary" />
+
 	<!-- FH Share -->
         <Preference
             android:key="share"
