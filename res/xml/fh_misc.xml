@@ -44,7 +44,7 @@
 	<Preference
 	    android:key="fh_maintainers"
 	    android:title="@string/fh_maintainers_title"
-	    android:title="@string/fh_maintainers_summary" />
+	    android:summary="@string/fh_maintainers_summary" />
 
 	<!-- FH Share -->
         <Preference
