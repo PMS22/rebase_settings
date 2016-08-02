@@ -69,7 +69,7 @@
             android:key="app_circle_bar"
             android:fragment="com.android.settings.fh.fragments.AppCircleBar"
             android:title="@string/app_circle_bar_title"
-	    android:icon="ic_settings_data_usage" />		
+	    android:icon="@drawable/ic_settings_data_usage" />		
 
 	<!-- About FireHound -->
         <PreferenceScreen 
